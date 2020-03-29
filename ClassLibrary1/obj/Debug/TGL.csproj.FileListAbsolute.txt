@@ -1,0 +1,10 @@
+D:\_Moje Dane\_Lectures\Programowanie z wykorzystaniem bibliotek graficznych\_2019zima\Cyberiada3D\ClassLibrary1\bin\Debug\TGL.dll
+D:\_Moje Dane\_Lectures\Programowanie z wykorzystaniem bibliotek graficznych\_2019zima\Cyberiada3D\ClassLibrary1\bin\Debug\TGL.pdb
+D:\_Moje Dane\_Lectures\Programowanie z wykorzystaniem bibliotek graficznych\_2019zima\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.dll
+D:\_Moje Dane\_Lectures\Programowanie z wykorzystaniem bibliotek graficznych\_2019zima\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.pdb
+D:\_Moje Dane\_Lectures\Programowanie z wykorzystaniem bibliotek graficznych\_2019zima\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.csprojResolveAssemblyReference.cache
+C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\bin\Debug\TGL.dll
+C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\bin\Debug\TGL.pdb
+C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.csprojAssemblyReference.cache
+C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.dll
+C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.pdb
