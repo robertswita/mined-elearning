@@ -13,6 +13,7 @@ namespace Cyberiada3D
 {
     public partial class Form1 : Form
     {
+        public RubikCube RubikCube;
 
         public Form1()
         {
@@ -47,6 +48,17 @@ namespace Cyberiada3D
             //    var r = Rectangle.FromLTRB(StartPos.X, StartPos.Y, e.X, e.Y);
             //    tglView1.Context.ZoomIn(r);
             //}
+        }
+
+        private void tglView1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            RubikCube = new RubikCube();
+            RubikCube.Parent = tglView1.Context.Root;
         }
     }
 }

@@ -14,7 +14,7 @@ namespace TGL
         List<object> NameStack;
         public Rectangle Viewport;
         public TCamera Camera;
-        public TObject3D Root;
+        public TObject3D Root = new TObject3D();
         public IntPtr Handle
         {
             get
@@ -26,7 +26,7 @@ namespace TGL
                     var idx = Win32.ChoosePixelFormat(HDC, pfd);
                     Win32.SetPixelFormat(HDC, idx, pfd);
                     HRC = Win32.wglCreateContext(HDC);
-                    Win32.wglMakeCurrent(HDC,HDC);
+                    Win32.wglMakeCurrent(HDC,HRC);
                 }
                 return HRC;
             }
@@ -38,7 +38,7 @@ namespace TGL
             if (!IsInited)
             {
                 OpenGL.glEnable(OpenGL.GL_DEPTH_TEST);
-                OpenGL.glEnable(OpenGL.GL_LIGHTING);
+                //OpenGL.glEnable(OpenGL.GL_LIGHTING);
                 OpenGL.glEnable(OpenGL.GL_COLOR_MATERIAL);
                 OpenGL.glEnable(OpenGL.GL_NORMALIZE);
                 IsInited = true;
@@ -56,8 +56,7 @@ namespace TGL
                 OpenGL.glClear(OpenGL.GL_COLOR_BUFFER_BIT | OpenGL.GL_DEPTH_BUFFER_BIT);
                 OpenGL.glViewport(Viewport.Left, Viewport.Top, Viewport.Width, Viewport.Height);
                 Init();
-                if (Camera != null)
-                    DrawScene();
+                DrawScene();
                 Win32.SwapBuffers(HDC);
             }
         }
@@ -81,7 +80,8 @@ namespace TGL
             for (int i = 0; i < obj.Faces.Count; i++)
             {
                 var vertex = obj.Vertices[obj.Faces[i]];
-                OpenGL.glColor3d(vertex.X,vertex.Y,vertex.Z);
+                if(i%6 == 0)
+                    OpenGL.glColor3d(vertex.X,vertex.Y,vertex.Z);
                 OpenGL.glVertex3d(vertex.X, vertex.Y, vertex.Z);
             }
             //foreach (var face in obj.Faces)

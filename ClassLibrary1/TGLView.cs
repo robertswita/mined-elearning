@@ -33,5 +33,12 @@ namespace TGL
                 return cp;
             }
         }
+
+        protected override void CreateHandle()
+        {
+            base.CreateHandle();
+            if (Context.Handle != IntPtr.Zero)
+                Invalidate();
+        }
     }
 }

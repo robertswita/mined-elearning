@@ -25,7 +25,7 @@ namespace TGL
         public List<TObject3D> Children = new List<TObject3D>();
 
         TObject3D _Parent;
-        private TObject3D Parent { 
+        public TObject3D Parent { 
             get { return _Parent; } 
             set {
                 _Parent?.Children.Remove(this);

@@ -45,7 +45,7 @@ namespace TGL
                 Faces.Add(axis1);
             }
 
-            for (int i = Faces.Count - 1; i >= 0 ; i++)
+            for (int i = Faces.Count - 1; i >= 0 ; i--)
             {
                 Faces.Add(7-Faces[i]);
             }

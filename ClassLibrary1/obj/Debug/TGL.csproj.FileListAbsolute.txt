@@ -8,3 +8,9 @@ C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\bin\Debug\TGL.pdb
 C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.csprojAssemblyReference.cache
 C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.dll
 C:\Users\Przemo\Desktop\Cyberiada3D\ClassLibrary1\obj\Debug\TGL.pdb
+C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\bin\Debug\TGL.dll
+C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\bin\Debug\TGL.pdb
+C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.csprojAssemblyReference.cache
+C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.csproj.CoreCompileInputs.cache
+C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.dll
+C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.pdb

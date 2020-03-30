@@ -12,10 +12,10 @@ namespace TGL
         public static int N = 3;
         TCubik[,,] Cubiks = new TCubik[N, N, N];
         public static double M = (N - 1)/2.0;
-        public double Size = 0.45;
+        public double Size = 0.9;
 
         public RubikCube() {
-            Scale(1/M,1/M,1/M);
+            Scale(0.5 / M, 0.5 / M, 0.5 / M);
             for (int z = 0; z < N; z++)
                 for (int y = 0; y < N; y++)
                     for (int x = 0; x < N; x++)
@@ -23,6 +23,7 @@ namespace TGL
                         var cubik = new TCubik();
                         cubik.Translate(x - M, y - M,z - M);
                         cubik.Scale(Size, Size, Size);
+                        cubik.Parent = this;
                         Cubiks[z, y, x] = cubik;
                     }
         }
