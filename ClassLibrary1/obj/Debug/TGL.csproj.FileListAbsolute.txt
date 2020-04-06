@@ -14,3 +14,9 @@ C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TG
 C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.csproj.CoreCompileInputs.cache
 C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.dll
 C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\ClassLibrary1\obj\Debug\TGL.pdb
+E:\StudiaSem10\MiNED\mined-elearning\ClassLibrary1\bin\Debug\TGL.dll
+E:\StudiaSem10\MiNED\mined-elearning\ClassLibrary1\bin\Debug\TGL.pdb
+E:\StudiaSem10\MiNED\mined-elearning\ClassLibrary1\obj\Debug\TGL.csprojAssemblyReference.cache
+E:\StudiaSem10\MiNED\mined-elearning\ClassLibrary1\obj\Debug\TGL.csproj.CoreCompileInputs.cache
+E:\StudiaSem10\MiNED\mined-elearning\ClassLibrary1\obj\Debug\TGL.dll
+E:\StudiaSem10\MiNED\mined-elearning\ClassLibrary1\obj\Debug\TGL.pdb

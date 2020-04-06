@@ -34,3 +34,16 @@ C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\Cyberiada3D\obj\Debug\Cybe
 C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.csproj.CopyComplete
 C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.exe
 C:\Users\embe\Documents\WSL\Cyberiada\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.pdb
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\bin\Debug\Cyberiada3D.exe.config
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\bin\Debug\Cyberiada3D.exe
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\bin\Debug\Cyberiada3D.pdb
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\bin\Debug\TGL.dll
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\bin\Debug\TGL.pdb
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.csprojAssemblyReference.cache
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.Form1.resources
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.Properties.Resources.resources
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.csproj.GenerateResource.cache
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.csproj.CoreCompileInputs.cache
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.csproj.CopyComplete
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.exe
+E:\StudiaSem10\MiNED\mined-elearning\Cyberiada3D\obj\Debug\Cyberiada3D.pdb

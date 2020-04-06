@@ -8,9 +8,33 @@ namespace TGL
 {
     public class TCubik : TObject3D
     {
+        public int X
+        {
+            get
+            {
+                return (int) Math.Round(Origin.X + RubikCube.M);
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return (int) Math.Round(Origin.Y + RubikCube.M);
+            }
+        }
+
+        public int Z
+        {
+            get
+            {
+                return (int) Math.Round(Origin.Z + RubikCube.M);
+            }
+        }
+
         public TCubik(){
-            var lbn = new TPoint3D(-0.5, -0.5, -0.5);
-            var rtf = new TPoint3D(0.5, 0.5, 0.5);
+            var lbn = new TPoint3D(-1, -1, -1);
+            var rtf = new TPoint3D(1, 1, 1);
 
             for (int i = 0; i < 8; i++)
             {
@@ -36,9 +60,9 @@ namespace TGL
                 var axis1 = 1<<dim;
                 var axis2 = 1<<(dim + 1)%3;
 
-                Faces.Add(0);
                 Faces.Add(axis1);
                 Faces.Add(axis2);
+                Faces.Add(0);
 
                 Faces.Add(axis1 + axis2);
                 Faces.Add(axis2);

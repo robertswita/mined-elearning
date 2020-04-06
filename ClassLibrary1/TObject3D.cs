@@ -33,11 +33,14 @@ namespace TGL
                 _Parent?.Children.Add(this);
             } 
         }
-
-        //public TPoint3D Scale = new TPoint3D(1,1,1);
-        public TPoint3D Shear;
-        public TPoint3D Rotation;
-        public TPoint3D Origin;
+        
+        public TPoint3D Origin
+        {
+            get
+            {
+                return new TPoint3D(Transform[12], Transform[13], Transform[14]); 
+            }
+        }
 
 
         public double[] Transform = new double[16];
@@ -90,6 +93,13 @@ namespace TGL
         {
             OpenGL.glLoadMatrixd(Transform);
             OpenGL.glRotated(alpha, 0, 0, 1);
+            OpenGL.glGetDoublev(OpenGL.GL_MODELVIEW_MATRIX, Transform);
+        }
+
+        public void MultMatrix(double [] m)
+        {
+            OpenGL.glLoadMatrixd(m);
+            OpenGL.glMultMatrixd(Transform);
             OpenGL.glGetDoublev(OpenGL.GL_MODELVIEW_MATRIX, Transform);
         }
     }

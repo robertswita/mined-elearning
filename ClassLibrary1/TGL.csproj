@@ -46,6 +46,7 @@
     <Compile Include="RubikCube.cs" />
     <Compile Include="TCamera.cs" />
     <Compile Include="TCubik.cs" />
+    <Compile Include="TMove.cs" />
     <Compile Include="TObject3D.cs" />
     <Compile Include="OpenGL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
